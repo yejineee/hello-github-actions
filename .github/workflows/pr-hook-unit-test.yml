@@ -11,5 +11,5 @@ jobs:
       - uses: actions/checkout@v2
       - run : npm install
       - name: Unit Test Step
-        - run : npm run test
-        - run : echo "😇Test Done"
+        run : npm run test
+        run : echo "😇Test Done"
