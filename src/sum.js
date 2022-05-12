@@ -1,4 +1,4 @@
-const sum = (a, b) => a + b + 1;
+const sum = (a, b) => a + b;
 
 module.exports = {
   sum
