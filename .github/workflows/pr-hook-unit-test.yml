@@ -8,4 +8,5 @@ jobs:
   unit-test: # 이 워크플로우에서 실행될 job 이름
     runs-on: ubuntu-latest # 우분투 리눅스의 latest version에서 job이 실행될 것
     steps: # job이 실행할 스텝들
+      - uses: actions/checkout@v2
       - run : npm run test
