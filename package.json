@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "url": "https://github.com/yejineee/hello-github-actions/issues"
   },
   "homepage": "https://github.com/yejineee/hello-github-actions#readme",
-  "dependencies": {
+  "devDependencies": {
     "jest": "^28.1.0"
   }
 }
