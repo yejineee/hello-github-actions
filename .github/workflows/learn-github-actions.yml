@@ -1,6 +1,7 @@
 
 name: GitHub Actions Demo # workflow의 이름 (optional)
 on:
+  push:
   pull_request: 
     types: [opened, reopened] # workflow를 트리거하는 이벤트
 jobs:
