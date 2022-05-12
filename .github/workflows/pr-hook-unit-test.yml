@@ -10,4 +10,6 @@ jobs:
     steps: # job이 실행할 스텝들
       - uses: actions/checkout@v2
       - run : npm install
-      - run : npm run test
+      - name: Unit Test Step
+        - run : npm run test
+        - run : echo "😇Test Done"
