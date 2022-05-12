@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest # 우분투 리눅스의 latest version에서 job이 실행될 것
     steps: # job이 실행할 스텝들
       - uses: actions/checkout@v2
-      - run : npm install
       - name: Unit Test Step
         run : |
           npm run test
