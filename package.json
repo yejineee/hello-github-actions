@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/yejineee/hello-github-actions/issues"
   },
-  "homepage": "https://github.com/yejineee/hello-github-actions#readme"
+  "homepage": "https://github.com/yejineee/hello-github-actions#readme",
+  "dependencies": {
+    "jest": "^28.1.0"
+  }
 }
